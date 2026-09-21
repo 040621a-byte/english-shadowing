@@ -1,0 +1,11 @@
+{
+  "name": "english-shadowing-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "英语跟读练习 PWA：零依赖静态站点，可直接部署到 GitHub Pages",
+  "scripts": {
+    "start": "node ../work/tools/serve.mjs",
+    "test": "node ../work/tests/score.test.mjs && node ../work/tests/store.test.mjs"
+  }
+}
